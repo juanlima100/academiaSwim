@@ -1,0 +1,37 @@
+/*-------------HEADER------------------------------*/
+header{
+    /*imagenlogo*/
+    .header__imagenLogo{
+        width: auto;
+        height: auto;
+    }
+    /* animacion de logo de ANIMATE.CSS */
+    .animate__animated.animate__pulse{
+        animation-iteration-count: infinite;
+    }
+
+    /*navegador swim*/
+    .header__menuNavegacion{
+        background: rgb(0,212,255);
+        background: linear-gradient(74deg, rgba(0,212,255,1) 1%, rgba(122,232,199,1) 53%, rgba(135,130,235,1) 100%);
+            a{
+                font-size: 2rem;
+                margin-right: 30px;
+                &:hover{
+                    font-size:2.1rem;
+                        }
+            }
+            } 
+}
+
+
+/*----color del link del menu de navegacion*/
+.navbar{
+    .nav-item{
+        .nav-link{
+            color:rgba(27, 30, 209, 0.664);
+        
+        }
+    } 
+} 
+/*-------------FIN  HEADER--------------------------*/

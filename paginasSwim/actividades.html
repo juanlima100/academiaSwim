@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <!-- link CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+        <!-- link CSS con SCSS -->
+    <link rel="stylesheet" href="../css/prueba.css">
+    
+    
+    <title>ACTIVIDADES SWIM</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+        <!-- link para animacion logo y titulos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <!-- KEYWORDS -->
+    <meta name="keywords" content="swim, natacion, academia, nadar, pileta, cursos natacion, actividades, actividades en swim">
+        <!-- META DESCRIPTION -->
+        <meta name="description" content="Aca podes ver todas las actividades que tenemos en SWIM, para que elijas la que mas te guste!">
+
+
+      
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light header__menuNavegacion">
+              <div class="container-fluid">
+                  <a class="navbar-brand " href="../index.html"><img class="header__imagenLogo animate__animated animate__pulse"src="../multimedia_coder/logowebSWIM.png.png" alt="logowebSWIM"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="actividades.html">ACTIVIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="horario.html">HORARIOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="formasdepago.html">FORMAS DE PAGO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+    </header>
+    <main class="main__Actividades container-fluid">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-sm-10 col-md-4"><p><h1>Actividades</h1></p></div>
+            <div class="col-md-4"></div>
+        </div>
+        
+        
+
+        
+        <section class="main__navegadorActividades">
+            <div class="row">
+                <div class="col-sm-1 col-md-2"></div>
+                <div class="col-sm-10 col-md-8">
+                    <ol class="main__menuConActividades">
+                        <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalCursosBebes">
+                            Cursos bebes
+                          </button></li>
+                        <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalCursosNiños">
+                            Cursos Niños
+                          </button></li>
+                        <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalCursosAdultos">
+                            Cursos Adultos
+                          </button></li>
+                        <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalNadoLibre">
+                            Nado Libre
+                          </button></li>
+                        <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="" data-bs-target="">
+                            Otras Actividades
+                            </button>
+                            <ul class="main__submenuActividades">
+                                <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalPilates">Pilates
+                                <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalPoleDance">Pole Dance
+                                <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalIniciacionDeportiva">Iniciacion Deportiva
+                                <li><button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalHidroterapia">Hidroterapia
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-1 col-md-2"></div>
+             </div>
+            
+        </section>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalCursosBebes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CURSOS BEBES</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalCursosNiños" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="https://bodytech.com.co/uploads/post/715513290d2344a38681e9c9f8970b6e/Natacion-Imagen-desktop.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CURSOS NIÑOS</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalCursosAdultos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/coaching%20&%20mentoring%20(18)-1615898995.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CURSOS ADULTOS</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalNadoLibre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbkuzmqa4vUbu2pIDcdngzbljI2kYuYIxi7Q&usqp=CAU" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">NADO LIBRE</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalPilates" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="https://static2.abc.es/media/familia/2019/01/22/pilates-ejercicios-2-kMYF--1248x698@abc.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PILATES</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modalPoleDance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="https://fanbag.com.py/imagenes/thumb/19/01119_pole-dance_76_600x450_f.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">POLE DANCE</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="modalIniciacionDeportiva" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="https://superiorcads.edu.ar/imgd/curso-iniciacion-deportiva-capacitacion-juego-educacion-2-706281.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">INICIACION DEPORTIVA</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalHidroterapia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="card" style="width: 45rem;">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgVFhYZGBgYGBkYGBgYGhgcHBkYGBgZGRgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJSs0NDQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EADgQAAEDAgQEBAYBAwQCAwAAAAEAAhEDIQQSMUEFIlFhcYGRoQYTMrHB0UJS4fAUYnKCI/EHFcL/xAAaAQACAwEBAAAAAAAAAAAAAAABAgADBAUG/8QAJBEAAgICAgICAwEBAAAAAAAAAAECEQMhEjEEQRNRIjJxwWH/2gAMAwEAAhEDEQA/AMvRYjGCFHTbCIYF3WcPofTapgowICJw7N0rdEWzjGTrZTtogbeq5lOuqe2oBqClbsdJIKwrbq6w9wqfDYkCOVWrMSY+n3VE0y+AYAujshG4jqFK3FkWEx4qumWWggMTwShW4nspmVAd0GmFEhvt53UdVlv0pM/dREg7qIjY2nO/4THAkmylaFIGwjdC9gwfGgCkD+49Cuupz0XflwNFNE2RuqE2yyk1k6j3UzCOkLriBrZCw0QuaRoAuF53AUmZvX3TG1mHQgoog8NGsJpIUoSAHZAJD5LjjCleL6e6aDOyhAf5l9T7KTbQ+ykaFxonRSwURNN9IXHs7KR1O+p9o90nUz281AgbqICgexHOPWPVRPjfdMmLSKus2Bog6jbfSripZA1k6YrRW/LH9K4isgXURaKBgRLAomBTsE6LUZSYNnRStp911oUrWpGx0hUzl0kqdrMx0SYOiMp0uhhVtliRNh8O0bI5lFoEIWjA1JKOpwdDKpk2WxSG/Kau/JCk+XC5CSx6FTwzT/V5X9lKcCwAlxcDsLAnyTvmONpgRoLJl1LYdAxw3dNbQGxRD6gaJMAdzCzPE/iWDlZGUEet7dtFHPitkjByei5fhyTaT5kKE4N/9X3WUPFXvM53sIMxp99dJRzOP1Gw6cwBNoF9r9NEF5CGfjs0tGk8i7iPMpMpun63eZUfB+LfPaSRlcNr3HUI9x6/YJ1K9lbjWmMbhXnV/wB1G/AZtSTB7eyMa8dgkag0m6HJkpATsOeh9lEyjl0EK0Y8FJ0KciUVsFcg91Ylq4pyJRXPqvaOUEoZ+PqdPZXajcwHWEykvaA4v0ypZiqrtMo8VIyrUFyGk+JCMLGjZcdHQKOS9Iii/sEfxGqP4D1TW4151Y0eJ/CMJbuAon0WHYeSNx+iU/sBxPEGjaT0GnmhX8RDtDl8RZHvwrJvBn+pNFFrZIy6eaZONCtSsrqtV5/lI7IR9R3Uq5a1pmQLf56qJ+HYVLRKZTf6h3VJWv8ApmdAkmtC0zOgIukIUFJiJar2ZkOBUrCowFKGQErGRNTVjhmWQNFisMOwquRbEna1PDQuNapMgtGu/wDZVNliQXQzZYvHdda1T03nIGnZJVWW0MywkAngSnC2hhQNGJ/+QOI5GspNkE88gx2DZ1n9rz9+J5oJIgaTME6LWfHeFnEkyTmY1xJJOhIgE/5dZNtIB2kTqD01FjvPTZZsjtmnGkohFOrPhbppI281c4Wm8gXi5+6p6NIuI5TcTAtE9N9QVq+EN5CCLgmPBUzk4qy/GlJ0y5+H3Bjod/KAD36QtEGrJNq5XDsQfRatjwQDET1tr1Wjx5uUdmbyoKEk17Gmx1XWtlSGEmslaLMtHW0wuFqc50JvzFBjhXMqelChBuVdNMFdcxRvpuPWOg1/uoQjezYX8P2mvoHLBIlH4ahmHLqP4kFRVWFuo10MWPmpy9E4+yskARlv3KYzNtHorJ9MHUIOrTLdBbxlOpJiOLQM957eiYy/QH0lEfLuCdPBdaADoR4/tG0DYIKF9wmVKasHEHoh3+ClhoA+WUkVCSNgozVNTMaoh2U7FpMiJBZPYU0BEYeldK2MkG4Kha6sGtAUVEQFKAqJO2XxVDwjMNhzEkQhaZLTIRLMUSbmB2tPmLquV+h417CJA2lQl5Kke8H6dFwDqlQ72NbKa7uU919E0BEDMl8d8Mz0hXaDmo3IEy5h+oW6a+RWNwtDOJEbEu1taLTpqF61i6LXscxw5XtLT4ERqFh+H8AFJ72fUCADOhj8SSs2d8VZq8ZcnTIKWEDRmIEmP8nzRLK7aTS50kdh9kdQwQyEOBMW1mw0ueyifTtGsbLJKXJI2RjxbBeHYz5jw9wIYHAQJk9ST27LdNYsJSBdUDRZpIaNfMxv4LZ4B+RjWEzlETor8GRR0+inycXKmuw5lNLKmMrA6apxcVrTvZgarTGvak1oXZXCUwBwakWrgKRKgRrntFpjyK4x4OhPolU00lcp0gRIkeZQ9E9lhSxLbZ3TtYODh5jVR4qsxxsTH+/8ShmNjefunZktKxuTqhVWNH0vDvVCVZ0gnv8A4F17JMg/52XHutoT/wBj+06FexgpmbkeCc8HaE1r5SPiiAhew9AExzYF48l2oXKB70yQrZ3Mkoo8EkaFsztMqdoUNJqLWlmVHA1HYZChqtMBhyXACATu4hoEakk6JJOkWwVsJYntUhwpBLS9ttXBwy+R1Pkk6jFxzDTMAYnpcBU2i6mca5SsTGMG/l67qRrUGQc2oRoutk6ppautclCFMbO/l+SpC0D9oMvi6mpjQlU5JqKL8UHNnKjZHQKsxFLcBGYjEEHsmVnAtlc/JJzds6OOKgqRncXXLDMGEM7GNdoPPyUmPxTZLbnwE+6rg8SJED3TY4t9oXJkS6Yfw+iGOLyAXRAMc1+h2EKbE494cMrXFpnMQCcoGhPTxQ9PSR0V/wAAAyFwGriJ6gf4VqhiTMeTNIEwWODv2rWnizsQex/aVbh9N2rIPVtj7a+aCq8Ke27HAjYOMEeYEeys+Nr9WIsif7IsW4xu9j7eoUrHg6X8IWYrOqMdDmub3tHronurzfNft+Ch8ko9oPCMv1ZqM6TSFnqHEyLZp7O/eqPocSYfq5D/ALvpP/bT1TRnF9COEl2WZjdMyjYj0TQ7oELV4lRaYL2zuAQb99grIxb6FtBzQd0nHwUNPHsI+qAetx5ESnfMbp6EAz6So4tdoOjjwoz3KlxNIsdlMgxvI1Qrz1FvOCotgeiEPAkdCe266KoSqYgdPVQGqegT1Yl0TOcoHJtTEQCTaNZVU7j2HETWYMwkSYtMeSnRO+iySVJU+JsKCQazbdAT7gXSU5R+ycZfRHTCmAQ7HImk1amY0T4cKwwzCTOyjw1IAd0WCqpSLooPwBaHAvjKLwZv20PurHH8UY9uVrel4AgDoBMeqoQ5StcqXBN2XKbSpE+ZFYdoIJPkgC5EYZ21z2QktEj2EOYIJ9uqcwjKDGybEmJE+Kc0d0o6QO9mYgd58h/chFGnAUYMPB1AEeqnqVBGqx53cjZgVRK+u20Kpr4kREzFlB8Q8SczlbNzFpJJPhtZVlN7jGYR42Ux4eSti5vI4viiWpc2QVenF0/EYoDlbc9AntoOeznt2/auUaM/Ns5QeTyiTby9Vq+EV2OYGsnkABkQQY9x3CyP+oDWnKLzEm/ohMD8SNw1Z0tLxGQgOu2+bMOqti0kI02z0cuTgVXcK4mzEMD2SJ/iS3MNJkAnqPVHt8kwBtS4vdAu4Sx1wCz/AImB6GysyPBcLlCFBifh7N9D4Pdv6QOGwtRr8jyxwFpD9e0QrfiWJk5GmI+qNTImPCFWuCtj4sZK2MszXQXjaEUy3MWN3AJDYGrSRJaPBVVLhtN45HwerXh7e3K5oJ9UZTrFvcdP0q3i/E34ch7OZjvqZ0PVp/Cry4suFcsbdfRdjnjm6ml/SMvq4Z3O05J+oXY4f/k9j7rUcL4maoDTBDACwwN/4E72FhewPRD4bEtq0w6zg4XBvrsQgzQZQJqshpaDyyS0TYmNdCbfZJHzI5Fxmqf2GfjOO4u19GlxIc8g5Q0RAiwQ5pkTb9eahbxJhHMSE9lYG4uOxRjJNaKJKnsje0DZRuHZFOIiY76eUoWs9rWucdACTvYCSrExKPOvjjjFZlc0mOLGBg+mxdn+qXaxaLdFiitv8WsY9nzHg55Ibpob37BYsrBLJzbZvWPgkiNJOlJAJ6XTMq0wlLdV2FbJV1RcNAuzJnEiglhUijapVSXoewqVoQ7USwWQYyCKWGktLuVpOpLQSNy0OIlSYprA7/xmQAJObWelhPTTZCPeTqZ8Ugkp9jWqpB9BtMscXkhwIgDWL6A2/KGDz1UOZMe8QZLvFtz6QVKojlZ19Xnieg8IT62IkOgGBPoN1WCoGtdUJN5jsDshK/EuQuAkAXvrpAjQ6rnS/PJo6Mfwx77IsVVLj46W+xURZlEk3Og/JXaPGmgnsOoHTQf+kHVxudxJAHQCI0W6K1SOZO7thdPwChxWIiZuOiEqcRa0SXBoHVVfEOJNa3MZIP0jqUkkkNC2R4/iTmAhoAnqZjv7oLAtZUcXOgtABcLgl3UG1ux7xGqp6+Je8l5FibDax0R1HFkgMiZgR9Iv4aoRZpcaRf4Cg+q+KDzRY0jmDngOcdC1oImwgmdAFv2Y54AgB0CCZMmN5JPvKyOEBpMYzNmgAk9zeB228laU8cPCd9UZOV6Kri+zQN4iD9Ut8f2imGW5pETAuNQJWcGJaTEkxvEfdSjFZYE+B+10PlftB+JemP4xhXBxqNEgxm7ECJ8IA9FkuLV8W14dRcSwfxAab7hwNz5H0W2wHEA85HGTt5ahNr8KY4kgR/xP4IhbYZU48ZX/AFFDTi7RTYfGZmtLm5HECRqAdxKczDtqv+WbtmSRBgC+twL9VYM4A0n6nx0AA9SrrC8PYxoDYaJkzv8A8jqnyZY8aW7JFSuypp8GptEc1tiQPsAjcdweiMrCzQAuIJBnXl9tUYXRsLyIi19xP/tSfJLsxa0kMEkE/SLxcmYET5LFxivRdyk/ZisVhXUHuzZnNg5HCNZ5Q+RbuEsCx5cQJaQ0vm8w1ua0a8t4W1pillOc5g6QA5skSCC4kExrMDNtuqV/Dactc0ZC1+flkA3Fou0abAearlhTdx0WLLxVS2V//wBu9rIIs60uEzB0aTpcHQqPE8TlhAFyCDOkEXXMTwOvUzuZkDGcwY1ztx/FpBgnLJ0HtFZTwdSC3I//AHWMRPXTZV1lSasdPE2m0VXGMI6pRk/UwT/yA1/axr6ZGq9Mz7GIiD4KoxfCqLG5iJLnZR59NrLKpcdG143LaMMkrjFcEIe6HCJtYpKznET4ZfRt8Owq7wdFVOCpkkK8puAXamzgwQQ2knGmo2VBspg9Ul2hMpJ2UrnzoTXVipsOiQiFWcR4/Qo8r3y7+lvM4eI280/iRqFjgx2V+xADr9IWGb8MYqoSW03OJJnK0m+8kBDYVRa4z4zBBDGPadiSzfeCDp0lV2A4k+vWYwvfEkkF8gwDAgNG8Sd+ijr/AAvVY7LUBa6xykQYPXorHgeAFOqXFt8uVt5jmBJ0uYEeZSZE1By/4PDi5KJpMectMAdFjuMmo+mxjDGZxcZdFpMDsZ+y2GPHJBgZgIvpcGbdpWIdUJfAyy6BFyQTMB2WzTymx6LB4quVs3+Q6ikinq4CsO/gR+V1lLEgWJG13A/dbLh3A31y/LWaGMe9kOpuz8rtwXCLRqhfiHgb6b2NpvL8zXTmDbERpA6HrsulwjVqzG2/dGOxGDquJc8yRrLh+4UZw1pJzHxmOw6q3q8IeSA57CNbTB6yrXA4VlMRlaZHNaZGp7kJFiT2CWVRRmsPQaJa+06zI+m8eGhVn8O8N+Y9suDM2hglw35R+dlbcDo4eu99J1Ew76H7sgQRMWdF9+i2HCODUsOOTMSbFziC4jpIFgmUEhZTbGUeCUWtuHPI3c4/ghBY/BBl20iWbua8lw/6lX8dNFxx628ExWYr55nlH781OzFEC8jqNR6FWnxJSBolzW84I5gLgTck9IWUDzvM+qSUQqbRa4arzyDYEEkCCPJbCjWa4BzbgixWEwuNfTs2A4m5iTGzfCVuWWAHZMloHKwuhXDZmbiNd9dFMytn5Q0aT4RcxMwLbeiHw2Jy7EgyDlcWkgxYkbW6bldrVGn6GZI6Ocd9yT0StbHT12S4hkZbGSM0ReI3ANt9gbIY1QLbRbSZ1EncJ9PFPaQWuNribiesG0pja7TLntzOJJJJMGewgzPffRRJgbXogfVtcjt/b9d13IQW5edrtI1tq0i+V0eOoKlxFSgRysIM94jvLj9kM5lMAw++1yI1uQRcaJkAseIPp0j/AOIvBLYIdbM0kyHXBjTbbzVY5+YGSGgXDb3kgQDvHc7Jj2HXMCoS4RvPtCkY0iOdsoq2FqMkFuYA2LZJjbM3UGPJCCsTy/4Oy01auGMLiNB4rKOfzF5vJJPW95WHyMEY7Ru8byZN1I58gH+pJE/PZ/U31CSw7Oha+y7oCBCIah6b7BStevQs82glgUkKCk5EQkY6FlXWRN5A7CT6EhdC4UCBmKq0y1mUZSAJA69S8gGewt0Q2NrPq5A505ZiwkW6xJ80mtUGJfEHv+CjCK5JDW2CY2nkLAI53QZjXa50upcbhHMNNpAh5c6LkywRlcbCRnMiFWcdr5WB41a4H0v+EfhOM/MLqnLOdjGwAA1jmNLQI0vbzS+YnHH/AEv8eKlk16COJYV72AMYXWAA5RoZnVY3E4F7X5ntGZgYBTbYugky4xBcMxvpJtbXc4nG5WFwIlhkjtZ0eiyvxnxEU3hzQHB9tbC0jxXNwS4yNueDcbQvgxz2F7HmS4h+u8QfsET8cUy6hnEyx7XAixvbXzHos1wHjZdiGNOWHS05RfQkX8lueLURUovZH1McB4kWXYg1KGv4c+ScZbPPsFxRjWvIp5nuBe46auEjMZMAEnRT4PFPqkMZALoDGggE21MfSAJ0NvFD4fIy+XK5tnuM6OEEBp0cDMCDZdwlRrX56QJefE5dQ89T1WdX1ZJJPdGw+FsHkzuc4PMlgdJ5WsJBbl0EEG+plaVpWM+HOJASwDcuncmb5h1/S0D687q2rKW6eyyNcaAJhM6oBtYqN+LIU4g5HOO4wMZknmfLW66fy07fdZM072RvxCx9XK5ou2bDvF/ZV7cU9oGdjp3ywfOPwg00TvaLr4bwrHPLn3cyC0bePktY5eW47izhAYHMcDcmxtpHRWPC/i17BlqjOP6tHD8FJZYouj0KYv8AZIVZWTo/FtLdrx5A/laHBYplRgewy07jr0I2KbQNoKPspqD2NPMzMBNsxbM9T0HaFCKgCa+oChVhTobUANwI7KBzE75i4QUyFZCWdFzIpASCuV6g3RAVXE8XAyC537aKmLJmUU5pLiTrJXSwblc7NlblTN+DGkrKv5ISVh8hvUJKnmX8C1pCynahwIUrAu0cVBTAi6aFps6okNSMdHXFNlNe6FE1CiWT50JxRxDAej2+5y/lEtK5Wp5mkHcJoupJhKHi9MuovHZU3whw6s1rswaaVTbNzNc0/VEbRPkrJ9aWkHpBVh8M0yKRn+t0eFv7q7ysUZxTfr/RseeUH+ImvIPM3UZTAOomCOxB+yq8Tw7572CoBLMpaxws/TMT1EBal5KTGyVzl40U7TNT8yTVNIyOOp/IeMgaGhwJAEcgN/T8LQsry26nx+CY8aCR1CqqlB4aQ0wQbTef0t+NxSZibaMrx+u8Yh5bcvEkRMk6nvcSlwvhz2OzuDdNze/bqrctcDzjm62uB3CY59lnklydIfm3GgltcQywaWSOUAA5nEu0A2jWVcMkifdUOEZmeB0utM8w0BNFNIrk7YMQVxtFSApTdWCiNEKEUQ50FoMX5bPHTxRjTKixOHLoLYka9x2VWRSa0XYnFPZxtEOsXB7Tq17AZHQhUnGPhthl1DkP9BnKfCfp+ytnsqtGhhRMruGoWJ84u0a+UGqZg30ntOVzSD0IK1Pwe5zC/NLWEN1mJurd9QEczROxsln0NjBmD6KyOeKW07EeJvroOdjWDcnwBXaGKY+QHX6Gx8uqrq9Sf4x4IWqGiCJBQWdivAaJjbJByqMPxFzAMwzN6/y/uiBjWuPK4eGh9FpjOMuimUXHsKc5C4mu1ok3Ow6qKriibN9T+FCY3MndU5PIjHUdstx4JS2+gNoOvmk5062PROqvhBVapWFxcnZtUlFUPc/t7riF+auo/EwfKjSMIUjKkIbD0vmZ3CBAkMBEknQNDjeTaBJ7FOqUXtjM0tzAObIiWkSCOoXY10cnfZYU6yKzCFWYdFl+yVoZMna2bldyhMYU5pUCNcCF2VKWpsIWSgVmGaDIY2SZNhJJ1RQbFlIxwCaTKjk2RKiItTmthP8AlqNxhAg7KhMRTRQcuPCKdEeyoxGDzRKiPCm7Eg+qtMgKkbSATWLRX4XhzKdwSSdz+kQ8TZFlgjRRVAEEyNA4pnWEwollaLFMq3TWBoZTCkYTmXKbeqdRaQbXQYUGN0UFRvRSgrrmpByrxFJjtW+Ysq3EsNOCDINrq8rUz0QWJpEtII1CEscZLaBGcovRX0cb1UzqjHG8KnewtkKA4gt1lYZ4aejZDNa2Xr2t2KjbhAHZiZgQB06lVTK5NwZCecWdEnGa0WcoPZZPqwhqmKVbice1o53R0G58lUV+Oj+DD4uP4H7RWFh+T6NDUxMoWpWCytfiVR1i6B0bb7XTMNjHMNrjcFWRSiJKLkaTOeqSrBxZnceSSfkU/HL6PTRx1jQP9PTFN4IOexMOmwBHU6k6ahNwVJ1dzn1HnKwgvMkuhxJIYIImx1gJJLY4pdGa25UyzGCzR8tga0Ns7MSXmTBM6E9IACmHA6wuWhvKXXIMgdIJv4riSpc2nReoJ9gpKkpQNUklcUkhqJhEpJJQnCVIxsXSSRZEcJTHJJIEOApz4SSTAISIukHBJJQBIUPUMJJKIjIp7JzXDoupJhR4AKfTbCSSVjIeat0n1gBKSSDCBHFFNOKBSSTCNsDxmFDhI1+/YqirUgZ9EkkmRKx4h3CqDQy/8jfyQnHOFlzc1FxaRq2YkePVJJMkqQqk+RiK1IgkO13391EQkkq5pG+L0MKSSSzPstRyEkkkgT//2Q==" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">HIDROTERAPIA</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius reprehenderit adipisci nobis perferendis fugit magni. Maxime non suscipit eius in quam consequatur nemo quis. Odio eius repellat tenetur. Non?
+                                    Omnis nulla amet tempora quod sequi neque. Ratione, facere! Praesentium deleniti nostrum neque suscipit voluptatibus, pariatur quo aperiam reprehenderit saepe consectetur nulla hic, sint totam. Corporis inventore numquam dicta porro?
+                                    Consectetur numquam, eum quod tempore, exercitationem perferendis voluptate deleniti nesciunt culpa eaque vel doloribus, laudantium omnis facilis sequi deserunt! Quaerat nam beatae est, harum expedita ut minima ullam quidem explicabo.</p>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                                    <button type="button" class="btn btn-primary">INSCRIBIRSE</button>
+                                </div>
+                              </div>
+                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+       
+
+
+
+        <section class="main__espacioEnBlancoActividades">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8"></div>
+                <div class="col-md-2"></div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-sm-10 col-md-6 main__ubicacionParrafo"><p class="main__parrafoActividades"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, officia quidem perspiciatis consequatur quod adipisci debitis dolorem vitae. Voluptatibus, corrupti magnam! Nihil laboriosam fugit rerum deserunt consequuntur minima dolores eaque.
+                Minus magnam possimus quo expedita labore tempora pariatur in officiis perspiciatis provident quaerat, aliquam, tenetur facere. Amet illo fuga ipsa impedit explicabo voluptatum praesentium consequuntur fugit, sequi, saepe repellendus eum.
+                Ut consequuntur delectus temporibus ad nobis. Omnis quas quisquam deleniti debitis voluptate doloremque facilis, incidunt quos iusto, exercitationem earum. Sint consequuntur ratione soluta molestias. Ipsam eveniet optio sit nam consequuntur?
+                Mollitia error animi, perspiciatis aperiam, quibusdam ipsa exercitationem, provident numquam corporis quaerat rem sequi totam praesentium. Ratione, placeat esse omnis quasi, fugit ad nulla eos earum natus praesentium sit assumenda.
+                Quos ducimus, quae nemo qui cupiditate excepturi maxime? Non, sit. Quis architecto accusamus natus aliquam iste veniam sapiente incidunt! Et neque, cumque fugiat atque hic quo dignissimos ut alias reprehenderit.</p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </section>
+
+
+    </main>
+    <aside>
+        <div class="aside__redesSwim">
+            <article><a href="https://www.facebook.com/swimacademiadenatacion" target="blanc"><img class="logoFacebook"src="../multimedia_coder/logoFacebook.png" alt="logoFacebookSwim"></a></article>
+            <article><a href="https://www.instagram.com/swimacademia/" target="blanc"><img class="logoInstagram"src="../multimedia_coder/logoInstagram.png" alt="logoInstagramSwim"></a></article>
+            <article><a href="https://wa.me/5493513442646" target="blanc"><img class="logoWhatsApp"src="../multimedia_coder/logoWhatsApp.png" alt="logowhatsAppSwim"></a></article>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="footer__logos">
+            <article><a href="../index.html"><img class="footer__imagenLogo"src="../multimedia_coder/logowebSWIM.png.png" alt="logowebSWIM"></a></article>       
+            <article><a href="https://www.facebook.com/swimacademiadenatacion" target="blanc"><img class="logoFacebook"src="../multimedia_coder/logoFacebook.png" alt="logoFacebookSwim"></a></article>
+            <article><a href="https://www.instagram.com/swimacademia/" target="blanc"><img class="logoInstagram"src="../multimedia_coder/logoInstagram.png" alt="logoInstagramSwim"></a></article>
+            <article><a href="https://wa.me/5493513442646" target="blanc"><img class="logoWhatsApp"src="../multimedia_coder/logoWhatsApp.png" alt="logowhatsAppSwim"></a></article>
+        </div>
+        <div class="footer__texto">
+            <p class="footer__telefonoFijo">Telefono fijo:03543-422514</p>
+            <p class="footer__direccion">Direccion: Roberto Boyle 5724 - Villa Belgrano</p>
+        </div>
+    </footer>
+
+        <!-- Bootstrap / js -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    
+</body>
+</html>

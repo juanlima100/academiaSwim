@@ -1,0 +1,60 @@
+
+/*-------------PAGINA ACTIVIDADES-------------------*/
+.main__Actividades{
+    height: 140rem;
+} 
+
+.main__espacioEnBlancoActividades{
+    height: 30rem;
+}
+
+.main__navegadorActividades{
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.main__menuConActividades{
+    li{
+   display: inline-block;
+   position: relative;
+   padding-left: 60px;
+       &:hover ul{
+           display: block;
+           }
+   
+   button{
+   background-color: rgb(7, 152, 209);
+       }
+   }
+}
+
+.main__submenuActividades{
+    position: absolute;
+    display:none;
+        ul{
+            display: block;
+            }
+        li button{
+            margin-bottom: 1rem;
+                }
+    }
+
+.main__parrafoActividades{
+    border:3px solid white;
+    color: white;
+    width: 70%;
+    font-size:2rem;
+    line-height: 3rem;
+    height:auto;
+    }
+
+
+.main__ubicacionParrafo{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+}
+
+
+/*---------------FIN PAGINA ACTIVIDADES--------------*/

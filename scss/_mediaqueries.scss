@@ -1,0 +1,84 @@
+
+/*-------------------------MEDIA QUERIES---------------*/
+
+@media only screen and (max-width: 768px){
+    .footer__texto{
+    display: none;
+    }
+   
+   .footer__imagenLogo{
+   display: none;
+   }
+   
+   .footer__logos{
+    display: grid;
+    grid-template-columns: 20px;
+   }
+    
+   
+   .main__homeSwim__asidePublicidad{
+    display: none;
+   }
+   .aside__redesSwim{
+    display:none;
+   }
+   
+   .main__Contacto{
+    height: 150rem;
+   }
+   .main__Contacto__mapaSwim{
+    width: auto;  
+   }
+   
+   .main__homeSwim__imagenCarrousel {
+    width: 500px;
+    height: 320px;
+   
+   }
+   .main__Actividades{
+    height:auto;
+   }
+   
+   .header__imagenLogo{
+    width:10rem;
+    height:6rem;
+   }
+   .main__menuConActividades{
+       li{
+        padding: 0px;
+       }
+       
+           
+   }
+   }
+  
+   @media only screen and (max-width: 320px) {
+    .main__homeSwim__imagenCarrousel {
+        width: 320px;
+        height: 320px;
+        }
+   .main__menuConActividades{
+    display: grid;
+    grid-template-columns: 170px;
+    justify-content: center;
+    
+   }
+   
+   .main__submenuActividades{
+    position: absolute;
+    display:none;
+        ul{
+            display: block;
+            }
+        li button{
+            margin-bottom: 1rem;
+            display: grid;
+            grid-template-columns: 110px;
+            justify-content: center;
+                }
+    }
+    .main__Actividades{
+        height:auto;
+       }
+   }
+/*------------------------FIN MEDIA QUERIES-------------------*/

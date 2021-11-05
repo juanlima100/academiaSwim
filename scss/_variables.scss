@@ -1,0 +1,49 @@
+/*-------------VARIABLES---------------------*/
+
+@mixin logos($width,$height){
+    width:$width;
+    height:$height;
+
+}
+
+.logoFacebook{
+    @include logos(35px,35px )
+}
+
+.logoInstagram{
+    @include logos(35px,35px )
+}
+.logoWhatsApp{
+    @include logos(35px,35px )
+}
+
+
+$parrafo:(
+    parrafo1:green,
+    parrafo2:blue,
+    parrafo3:yellow,
+);
+@each $parrafo, $color in $parrafo {
+    .main__productos--#{$parrafo} {
+        color: $color;
+    }
+ }
+ 
+ @mixin parrafosProductos($fontsize,$textalign){
+    font-size:$fontsize;
+    text-align:$textalign;
+
+}
+.main__productos--parrafo1{
+    @include parrafosProductos(1rem,justify)
+}
+
+.main__productos--parrafo2{
+    @include parrafosProductos(1rem,justify)
+}
+
+.main__productos--parrafo3{
+    @include parrafosProductos(2rem,justify)
+}
+
+/*-------------FIN VARIABLES---------------------*/

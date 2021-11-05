@@ -1,0 +1,412 @@
+/*NO OLVIDARSE DE PONER npm run watch-css*/
+/*-------------VARIABLES---------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.logoFacebook {
+  width: 35px;
+  height: 35px; }
+
+.logoInstagram {
+  width: 35px;
+  height: 35px; }
+
+.logoWhatsApp {
+  width: 35px;
+  height: 35px; }
+
+.main__productos--parrafo1 {
+  color: green; }
+
+.main__productos--parrafo2 {
+  color: blue; }
+
+.main__productos--parrafo3 {
+  color: yellow; }
+
+.main__productos--parrafo1 {
+  font-size: 1rem;
+  text-align: justify; }
+
+.main__productos--parrafo2 {
+  font-size: 1rem;
+  text-align: justify; }
+
+.main__productos--parrafo3 {
+  font-size: 2rem;
+  text-align: justify; }
+
+/*-------------FIN VARIABLES---------------------*/
+/*-----------------------PAGINA HOME SWIM--------------*/
+#main__homeSwim__tituloSwim {
+  color: rgba(12, 15, 12, 0.664);
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 700bold;
+  font-size: 4rem;
+  margin: 30px 0px; }
+
+.main__homeSwim__imagenCarrousel {
+  height: 45rem; }
+
+/*Pagina INDEX*/
+.main__homeSwim {
+  height: 80rem; }
+
+.main__homeSwim__asidePublicidad {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  position: fixed;
+  top: 150px;
+  bottom: 180px; }
+
+/*--------------------FIN PAGINA HOME SWIM--------------*/
+/*-------------PAGINA NOSOTROS SWIM-----------------*/
+.main__nosotros__parrafo {
+  border: 3px solid black;
+  background: linear-gradient(to right, #EAECC6, #2BC0E4);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: justify; }
+
+/*----------FIN PAGINA NOSOTROS SWIM-----------------*/
+/*-------------PAGINA ACTIVIDADES-------------------*/
+.main__Actividades {
+  height: 140rem; }
+
+.main__espacioEnBlancoActividades {
+  height: 30rem; }
+
+.main__navegadorActividades {
+  font-size: 3rem;
+  text-align: center; }
+
+.main__menuConActividades li {
+  display: inline-block;
+  position: relative;
+  padding-left: 60px; }
+  .main__menuConActividades li:hover ul {
+    display: block; }
+  .main__menuConActividades li button {
+    background-color: #0798d1; }
+
+.main__submenuActividades {
+  position: absolute;
+  display: none; }
+  .main__submenuActividades ul {
+    display: block; }
+  .main__submenuActividades li button {
+    margin-bottom: 1rem; }
+
+.main__parrafoActividades {
+  border: 3px solid white;
+  color: white;
+  width: 70%;
+  font-size: 2rem;
+  line-height: 3rem;
+  height: auto; }
+
+.main__ubicacionParrafo {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center; }
+
+/*---------------FIN PAGINA ACTIVIDADES--------------*/
+/*------------------PAGINA HORARIOS----------------*/
+.main__horariosSwim__tabla {
+  font-size: 2rem; }
+
+/*------------------FIN PAGINA HORARIOS----------------*/
+/*----------------PAGINA PRODUCTOS----------------------*/
+/* 
+    .seccionProductos{
+        display: grid;
+        grid-template-columns:repeat(2, 2fr);
+        grid-template-rows: repeat(3, 15rem);
+        grid-template-areas: 
+        "productosRadio talles"
+        "combina ."
+        "productosCheck talles";
+    } 
+    
+    
+    .productosRadio{
+        grid-area: productosRadio;
+
+    }
+
+    .listadoTalles{
+        grid-area: talles;
+    }
+
+    .combinaProductos{
+        grid-area: combina;
+        font-size: 4rem;
+    }
+    
+    .productosCheck{
+        grid-area: productosChek;
+         */
+/* Pagina productos*/
+/* .seccionProductos{
+        height: 60rem;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    }  */
+/* .productosRadio{
+        height: 5rem;
+        margin-top: 5rem;
+    }
+    
+    .combinaProductos{
+        font-size: 4rem;
+        
+    } 
+    .productosCheck{
+        height: 5rem;
+        margin-top: 5rem;
+    } */
+/*PAGINA PRODUCTOS*/
+/* .seccionProductos form{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.listadoTalles{
+    text-align: center;
+}
+ */
+/*PAGINA PRODUCTOS*/
+/* .form{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.listadoTalles{
+    text-align: center;
+}  */
+.main__productos {
+  height: auto; }
+
+/*------------------FIN PAGINA PRODUCTOS-------------*/
+/*---------------PAGINA FORMAS DE PAGO---------------------*/
+.main__formasDePago {
+  height: 500px;
+  text-align: center; }
+
+.main__formasDePago__fieldset {
+  font-size: 2rem;
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 1rem;
+  border: solid black; }
+
+.main__formasDePago__tituloPagaOnline {
+  font-size: 3rem;
+  color: black; }
+
+/*---------------PAGINA FORMAS DE PAGO---------------------*/
+/*------------------------------PAGINA CONTACTO---------------------------------*/
+.main__Contacto {
+  height: 90rem; }
+  .main__Contacto .main__contacto__titulosPaginaContacto {
+    color: white;
+    font-size: 3rem; }
+  .main__Contacto .main__contacto__formularioNocliente :focus {
+    background-color: #76e3eb; }
+  .main__Contacto .main__contacto__formularioCliente :focus {
+    background-color: #76e3eb; }
+  .main__Contacto .main__contacto__mensajeConsulta {
+    font-size: 2rem; }
+  .main__Contacto .form-control:focus {
+    background-color: #76e3eb; }
+
+.main__contacto__botonResetEnviar {
+  text-align: center; }
+
+/*---------------------------FIN PAGINA CONTACTO---------------------------------*/
+/*Caracteristicas comunes a todas las paginas*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+main {
+  background-image: url("https://static1.abc.es/media/bienestar/2020/05/26/natacion-koQB--620x349@abc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+body {
+  font-family: 'Asap Condensed', sans-serif;
+  /*titulos*/ }
+  body h1 {
+    color: rgba(12, 15, 12, 0.664);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase; }
+
+/*botones redes fixed a la izq*/
+.aside__redesSwim {
+  position: fixed;
+  left: 0;
+  top: 150px; }
+  .aside__redesSwim article:hover {
+    transform: translateX(12px); }
+
+/*--------FIN ESPACIO COMUN A TODAS LAS PAGINAS-----*/
+/*-------------HEADER------------------------------*/
+header {
+  /*imagenlogo*/
+  /* animacion de logo de ANIMATE.CSS */
+  /*navegador swim*/ }
+  header .header__imagenLogo {
+    width: auto;
+    height: auto; }
+  header .animate__animated.animate__pulse {
+    animation-iteration-count: infinite; }
+  header .header__menuNavegacion {
+    background: #00d4ff;
+    background: linear-gradient(74deg, #00d4ff 1%, #7ae8c7 53%, #8782eb 100%); }
+    header .header__menuNavegacion a {
+      font-size: 2rem;
+      margin-right: 30px; }
+      header .header__menuNavegacion a:hover {
+        font-size: 2.1rem; }
+
+/*----color del link del menu de navegacion*/
+.navbar .nav-item .nav-link {
+  color: rgba(27, 30, 209, 0.664); }
+
+/*-------------FIN  HEADER--------------------------*/
+/*-------------------footer GENERAL-------------------*/
+footer {
+  bottom: 0px;
+  background: #00d4ff;
+  background: linear-gradient(74deg, #00d4ff 1%, #7ae8c7 53%, #8782eb 100%);
+  height: 120px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row; }
+  footer .footer__texto {
+    display: inline-block;
+    width: 50%;
+    color: rgba(29, 8, 146, 0.664);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+  footer .footer__telefonoFijo {
+    display: block;
+    font-weight: bolder; }
+  footer .footer__direccion {
+    display: block;
+    font-weight: bolder; }
+  footer .footer__imagenLogo {
+    width: 150px;
+    height: 90px;
+    padding-left: 10px; }
+    footer .footer__imagenLogo:hover {
+      transform: scale(1.1, 1.1); }
+
+.footer__logos {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+/*--------------- FIN footer GENERAL-------------------*/
+/*-----------------LOGOS ASIDE Y FOOTER-------------*/
+.logoFacebook {
+  width: 35px;
+  height: 35px; }
+  .logoFacebook:hover {
+    transform: scale(1.2, 1.2); }
+
+.logoInstagram {
+  width: 35px;
+  height: 35px; }
+  .logoInstagram:hover {
+    transform: scale(1.2, 1.2); }
+
+.logoWhatsApp {
+  width: 35px;
+  height: 35px; }
+  .logoWhatsApp:hover {
+    transform: scale(1.2, 1.2); }
+
+/*--------------FIN LOGOS ASIDE Y FOOTER-------------*/
+/*-------------------------MEDIA QUERIES---------------*/
+@media only screen and (max-width: 768px) {
+  .footer__texto {
+    display: none; }
+  .footer__imagenLogo {
+    display: none; }
+  .footer__logos {
+    display: grid;
+    grid-template-columns: 20px; }
+  .main__homeSwim__asidePublicidad {
+    display: none; }
+  .aside__redesSwim {
+    display: none; }
+  .main__Contacto {
+    height: 150rem; }
+  .main__Contacto__mapaSwim {
+    width: auto; }
+  .main__homeSwim__imagenCarrousel {
+    width: 500px;
+    height: 320px; }
+  .main__Actividades {
+    height: auto; }
+  .header__imagenLogo {
+    width: 10rem;
+    height: 6rem; }
+  .main__menuConActividades li {
+    padding: 0px; } }
+
+@media only screen and (max-width: 320px) {
+  .main__homeSwim__imagenCarrousel {
+    width: 320px;
+    height: 320px; }
+  .main__menuConActividades {
+    display: grid;
+    grid-template-columns: 170px;
+    justify-content: center; }
+  .main__submenuActividades {
+    position: absolute;
+    display: none; }
+    .main__submenuActividades ul {
+      display: block; }
+    .main__submenuActividades li button {
+      margin-bottom: 1rem;
+      display: grid;
+      grid-template-columns: 110px;
+      justify-content: center; }
+  .main__Actividades {
+    height: auto; } }
+
+/*------------------------FIN MEDIA QUERIES-------------------*/
+/* ------------------pagina ERROR 404--------------------*/
+.main__titulo__error404 {
+  font-size: 4rem; }
+
+.body__error404__imagen1 {
+  height: 150px; }
+
+.body__error404__imagen2 {
+  height: 150px; }
+
+.main__error404__logoSwim {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+/* --------------- FIN pagina ERROR 404--------------------*/

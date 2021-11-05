@@ -1,0 +1,45 @@
+/*Caracteristicas comunes a todas las paginas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html{
+    font-size: 62.5%;
+    }
+
+main{
+    background-image: url("https://static1.abc.es/media/bienestar/2020/05/26/natacion-koQB--620x349@abc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    font-family: 'Asap Condensed', sans-serif;
+        /*titulos*/
+        h1{ color:rgba(12, 15, 12, 0.664);
+            font-style: italic;
+            font-weight: 700;
+            font-size: 3rem;
+            text-align: center;
+            text-transform: uppercase;
+            } 
+}
+
+
+    /*botones redes fixed a la izq*/
+
+.aside__redesSwim {
+    position: fixed;
+    left:0;
+    top: 150px;
+        article:hover{
+            transform:translateX(12px);
+            }
+    }
+
+/*--------FIN ESPACIO COMUN A TODAS LAS PAGINAS-----*/

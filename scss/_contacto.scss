@@ -1,0 +1,33 @@
+/*------------------------------PAGINA CONTACTO---------------------------------*/
+    
+.main__Contacto{
+    height: 90rem;
+        
+        .main__contacto__titulosPaginaContacto{
+            color: white;
+            font-size: 3rem;
+        }
+        .main__contacto__formularioNocliente{
+            :focus{
+                  background-color: rgb(118, 227, 235);
+                }
+        }
+        .main__contacto__formularioCliente{
+            :focus{
+                background-color: rgb(118, 227, 235);
+                 }    
+                
+        } 
+        .main__contacto__mensajeConsulta{
+            font-size: 2rem;   
+           }
+           .form-control:focus{
+            background-color: rgb(118, 227, 235);
+        }
+    
+    }
+  
+        .main__contacto__botonResetEnviar{
+            text-align: center;
+        }
+/*---------------------------FIN PAGINA CONTACTO---------------------------------*/
