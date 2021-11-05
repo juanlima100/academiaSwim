@@ -346,6 +346,20 @@ footer {
 
 /*--------------FIN LOGOS ASIDE Y FOOTER-------------*/
 /*-------------------------MEDIA QUERIES---------------*/
+@media only screen and (max-width: 991px) {
+  .aside__redesSwim {
+    display: none; }
+  .main__Contacto__mapaSwim {
+    width: 300px; }
+  .main__homeSwim__asidePublicidad {
+    display: none; }
+  .main__Contacto {
+    height: 150rem; }
+  .main__parrafoActividades {
+    height: auto; }
+  .main__Actividades {
+    height: auto; } }
+
 @media only screen and (max-width: 768px) {
   .footer__texto {
     display: none; }
@@ -354,10 +368,6 @@ footer {
   .footer__logos {
     display: grid;
     grid-template-columns: 20px; }
-  .main__homeSwim__asidePublicidad {
-    display: none; }
-  .aside__redesSwim {
-    display: none; }
   .main__Contacto {
     height: 150rem; }
   .main__Contacto__mapaSwim {
@@ -365,13 +375,15 @@ footer {
   .main__homeSwim__imagenCarrousel {
     width: 500px;
     height: 320px; }
-  .main__Actividades {
-    height: auto; }
   .header__imagenLogo {
     width: 10rem;
     height: 6rem; }
   .main__menuConActividades li {
     padding: 0px; } }
+
+@media only screen and (max-width: 481px) {
+  .main__formasDePago {
+    height: 500px; } }
 
 @media only screen and (max-width: 320px) {
   .main__homeSwim__imagenCarrousel {
