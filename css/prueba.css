@@ -383,7 +383,7 @@ footer {
 
 @media only screen and (max-width: 481px) {
   .main__formasDePago {
-    height: 500px; } }
+    height: 700px; } }
 
 @media only screen and (max-width: 320px) {
   .main__homeSwim__imagenCarrousel {
@@ -404,7 +404,9 @@ footer {
       grid-template-columns: 110px;
       justify-content: center; }
   .main__Actividades {
-    height: auto; } }
+    height: auto; }
+  .main__formasDePago {
+    height: 600px; } }
 
 /*------------------------FIN MEDIA QUERIES-------------------*/
 /* ------------------pagina ERROR 404--------------------*/
