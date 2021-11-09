@@ -19,9 +19,9 @@
 
 
 $parrafo:(
-    parrafo1:green,
-    parrafo2:blue,
-    parrafo3:yellow,
+    parrafo1:white,
+    parrafo2:#fcfdfdf3,
+    parrafo3:rgba(243, 247, 250, 0.952),
 );
 @each $parrafo, $color in $parrafo {
     .main__productos--#{$parrafo} {
@@ -29,21 +29,22 @@ $parrafo:(
     }
  }
  
- @mixin parrafosProductos($fontsize,$textalign){
+ @mixin parrafosProductos($fontsize,$textalign,$fontweight){
     font-size:$fontsize;
     text-align:$textalign;
+    font-weight:$fontweight;
 
 }
 .main__productos--parrafo1{
-    @include parrafosProductos(1rem,justify)
+    @include parrafosProductos(1.5rem,justify,bold)
 }
 
 .main__productos--parrafo2{
-    @include parrafosProductos(1rem,justify)
+    @include parrafosProductos(1.5rem,justify,bold)
 }
 
 .main__productos--parrafo3{
-    @include parrafosProductos(2rem,justify)
+    @include parrafosProductos(1.5rem,justify,bold)
 }
 
 /*-------------FIN VARIABLES---------------------*/

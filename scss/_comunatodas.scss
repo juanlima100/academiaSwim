@@ -11,6 +11,7 @@ html{
 
 main{
     background-image: url("https://static1.abc.es/media/bienestar/2020/05/26/natacion-koQB--620x349@abc.jpg");
+    background-image: url(../multimedia_coder/fondoSwim.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -18,13 +19,15 @@ main{
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
+
 body{
+    
     font-family: 'Asap Condensed', sans-serif;
         /*titulos*/
-        h1{ color:rgba(12, 15, 12, 0.664);
+        h1{ color:#f8f8f8;
             font-style: italic;
             font-weight: 700;
-            font-size: 3rem;
+            font-size: 4rem;
             text-align: center;
             text-transform: uppercase;
             } 

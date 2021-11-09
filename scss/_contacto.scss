@@ -11,12 +11,25 @@
             :focus{
                   background-color: rgb(118, 227, 235);
                 }
+                form{
+                    input{
+                        display: grid;
+                        grid-template-columns: auto;
+                        align-content: flex-end;
+                    }
+                }
         }
         .main__contacto__formularioCliente{
             :focus{
                 background-color: rgb(118, 227, 235);
                  }    
-                
+            form{
+                input{
+                    display: grid;
+                    grid-template-columns: auto;
+                    align-content: flex-end;
+                }
+            }
         } 
         .main__contacto__mensajeConsulta{
             font-size: 2rem;   

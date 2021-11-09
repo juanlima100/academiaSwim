@@ -14,30 +14,33 @@
   height: 35px; }
 
 .main__productos--parrafo1 {
-  color: green; }
+  color: white; }
 
 .main__productos--parrafo2 {
-  color: blue; }
+  color: #fcfdfdf3; }
 
 .main__productos--parrafo3 {
-  color: yellow; }
+  color: rgba(243, 247, 250, 0.952); }
 
 .main__productos--parrafo1 {
-  font-size: 1rem;
-  text-align: justify; }
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: bold; }
 
 .main__productos--parrafo2 {
-  font-size: 1rem;
-  text-align: justify; }
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: bold; }
 
 .main__productos--parrafo3 {
-  font-size: 2rem;
-  text-align: justify; }
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: bold; }
 
 /*-------------FIN VARIABLES---------------------*/
 /*-----------------------PAGINA HOME SWIM--------------*/
 #main__homeSwim__tituloSwim {
-  color: rgba(12, 15, 12, 0.664);
+  color: #fbfffb;
   text-align: center;
   text-transform: uppercase;
   font-style: italic;
@@ -57,18 +60,18 @@
   font-weight: bold;
   text-align: left;
   position: fixed;
+  color: white;
   top: 150px;
   bottom: 180px; }
 
 /*--------------------FIN PAGINA HOME SWIM--------------*/
 /*-------------PAGINA NOSOTROS SWIM-----------------*/
 .main__nosotros__parrafo {
-  border: 3px solid black;
-  background: linear-gradient(to right, #EAECC6, #2BC0E4);
   font-style: normal;
   font-weight: normal;
   font-size: 2rem;
-  text-align: justify; }
+  text-align: justify;
+  color: white; }
 
 /*----------FIN PAGINA NOSOTROS SWIM-----------------*/
 /*-------------PAGINA ACTIVIDADES-------------------*/
@@ -198,7 +201,7 @@
 
 .main__formasDePago__fieldset {
   font-size: 2rem;
-  color: black;
+  color: white;
   text-transform: capitalize;
   text-align: center;
   border-radius: 1rem;
@@ -206,7 +209,7 @@
 
 .main__formasDePago__tituloPagaOnline {
   font-size: 3rem;
-  color: black; }
+  color: white; }
 
 /*---------------PAGINA FORMAS DE PAGO---------------------*/
 /*------------------------------PAGINA CONTACTO---------------------------------*/
@@ -217,8 +220,16 @@
     font-size: 3rem; }
   .main__Contacto .main__contacto__formularioNocliente :focus {
     background-color: #76e3eb; }
+  .main__Contacto .main__contacto__formularioNocliente form input {
+    display: grid;
+    grid-template-columns: auto;
+    align-content: flex-end; }
   .main__Contacto .main__contacto__formularioCliente :focus {
     background-color: #76e3eb; }
+  .main__Contacto .main__contacto__formularioCliente form input {
+    display: grid;
+    grid-template-columns: auto;
+    align-content: flex-end; }
   .main__Contacto .main__contacto__mensajeConsulta {
     font-size: 2rem; }
   .main__Contacto .form-control:focus {
@@ -239,6 +250,7 @@ html {
 
 main {
   background-image: url("https://static1.abc.es/media/bienestar/2020/05/26/natacion-koQB--620x349@abc.jpg");
+  background-image: url(../multimedia_coder/fondoSwim.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -246,10 +258,10 @@ body {
   font-family: 'Asap Condensed', sans-serif;
   /*titulos*/ }
   body h1 {
-    color: rgba(12, 15, 12, 0.664);
+    color: #f8f8f8;
     font-style: italic;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     text-transform: uppercase; }
 
@@ -274,16 +286,18 @@ header {
     animation-iteration-count: infinite; }
   header .header__menuNavegacion {
     background: #00d4ff;
-    background: linear-gradient(74deg, #00d4ff 1%, #7ae8c7 53%, #8782eb 100%); }
+    background: linear-gradient(74deg, #00d4ff 1%, #7ae8c7 53%, #8782eb 100%);
+    background-image: url(../multimedia_coder/heaaderr.jpg); }
     header .header__menuNavegacion a {
       font-size: 2rem;
       margin-right: 30px; }
-      header .header__menuNavegacion a:hover {
-        font-size: 2.1rem; }
 
 /*----color del link del menu de navegacion*/
 .navbar .nav-item .nav-link {
-  color: rgba(27, 30, 209, 0.664); }
+  color: rgba(240, 240, 250, 0.664); }
+  .navbar .nav-item .nav-link:hover {
+    font-size: 2.1rem;
+    color: #00d4ff; }
 
 /*-------------FIN  HEADER--------------------------*/
 /*-------------------footer GENERAL-------------------*/
@@ -291,6 +305,7 @@ footer {
   bottom: 0px;
   background: #00d4ff;
   background: linear-gradient(74deg, #00d4ff 1%, #7ae8c7 53%, #8782eb 100%);
+  background-image: url(../multimedia_coder/footeer.jpg);
   height: 120px;
   font-size: 1.5rem;
   display: flex;
@@ -298,7 +313,7 @@ footer {
   footer .footer__texto {
     display: inline-block;
     width: 50%;
-    color: rgba(29, 8, 146, 0.664);
+    color: rgba(242, 241, 247, 0.664);
     padding-left: 20px;
     display: flex;
     flex-direction: column;
@@ -388,7 +403,7 @@ footer {
 @media only screen and (max-width: 320px) {
   .main__homeSwim__imagenCarrousel {
     width: 320px;
-    height: 320px; }
+    height: 290px; }
   .main__menuConActividades {
     display: grid;
     grid-template-columns: 170px;
