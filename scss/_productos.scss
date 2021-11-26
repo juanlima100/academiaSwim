@@ -1,89 +1,19 @@
 /*----------------PAGINA PRODUCTOS----------------------*/
-/* 
-    .seccionProductos{
-        display: grid;
-        grid-template-columns:repeat(2, 2fr);
-        grid-template-rows: repeat(3, 15rem);
-        grid-template-areas: 
-        "productosRadio talles"
-        "combina ."
-        "productosCheck talles";
-    } 
-    
-    
-    .productosRadio{
-        grid-area: productosRadio;
-
-    }
-
-    .listadoTalles{
-        grid-area: talles;
-    }
-
-    .combinaProductos{
-        grid-area: combina;
-        font-size: 4rem;
-    }
-    
-    .productosCheck{
-        grid-area: productosChek;
-         */
-    
-
-
-
-
-
-
-
-
-
-    /* Pagina productos*/
-    /* .seccionProductos{
-        height: 60rem;
-        color: white;
-        font-size: 3rem;
-        text-align: center;
-    }  */
-
-    /* .productosRadio{
-        height: 5rem;
-        margin-top: 5rem;
-    }
-    
-    .combinaProductos{
-        font-size: 4rem;
-        
-    } 
-    .productosCheck{
-        height: 5rem;
-        margin-top: 5rem;
-    } */
-
-    /*PAGINA PRODUCTOS*/
-    /* .seccionProductos form{
-    font-size: 3rem;
-    text-align: center;
-}
-
-.listadoTalles{
-    text-align: center;
-}
- */
-
- /*PAGINA PRODUCTOS*/
-/* .form{
-    font-size: 3rem;
-    text-align: center;
-}
-
-.listadoTalles{
-    text-align: center;
-}  */
 
 
 .main__productos{
-    height: auto;
-    }
+        height: 700PX;
+        .card{
+            margin-top:80px;
+            margin-bottom: 40px;
+        }
+        
+        
+        }
+
+
+
+
+
 
 /*------------------FIN PAGINA PRODUCTOS-------------*/

@@ -6,6 +6,7 @@
         .main__contacto__titulosPaginaContacto{
             color: white;
             font-size: 3rem;
+            
         }
         .main__contacto__formularioNocliente{
             :focus{
@@ -28,6 +29,7 @@
                     display: grid;
                     grid-template-columns: auto;
                     align-content: flex-end;
+                    
                 }
             }
         } 

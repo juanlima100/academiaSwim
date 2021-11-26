@@ -7,9 +7,7 @@
     .main__Contacto__mapaSwim{
         width: 300px;
        }
-    .main__homeSwim__asidePublicidad{
-        display: none;
-       }
+    
     .main__Contacto{
         height: 160rem;
        }
@@ -19,6 +17,7 @@
        .main__Actividades{
         height:auto;
        }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -36,9 +35,6 @@
    }
     
    
-   
-   
-   
    .main__Contacto{
     height: 150rem;
    }
@@ -47,7 +43,7 @@
    }
    
    .main__homeSwim__imagenCarrousel {
-    width: 500px;
+    width: 430px;
     height: 320px;
    
    }
@@ -61,10 +57,16 @@
        li{
         padding: 0px;
        }
-       
-           
    }
+   .main__productos{
+    height: auto;
+}
+  
    }
+
+
+
+
 
    @media only screen and (max-width: 481px){
         
@@ -83,7 +85,7 @@
    @media only screen and (max-width: 320px) {
     .main__homeSwim__imagenCarrousel {
         width: 320px;
-        height: 290px;
+        height: 260px;
         }
    .main__menuConActividades{
     display: grid;
@@ -111,5 +113,13 @@
        .main__formasDePago{
         height: 600px;
     }
+    .main__productos{
+        height: 150rem;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+
+  
    }
 /*------------------------FIN MEDIA QUERIES-------------------*/

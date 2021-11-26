@@ -55,23 +55,52 @@
 .main__homeSwim {
   height: 80rem; }
 
-.main__homeSwim__asidePublicidad {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: left;
-  position: fixed;
-  color: white;
-  top: 150px;
-  bottom: 180px; }
-
 /*--------------------FIN PAGINA HOME SWIM--------------*/
 /*-------------PAGINA NOSOTROS SWIM-----------------*/
-.main__nosotros__parrafo {
+.main__nosotros {
+  height: 800px; }
+
+.main__nosotros__parrafo0 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #e2fa0a; }
+
+.main__nosotros__parrafo1 {
   font-style: normal;
   font-weight: normal;
   font-size: 2rem;
-  text-align: justify;
+  text-align: center;
   color: white; }
+
+.main__nosotros__parrafo2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  color: white; }
+
+.main__nosotros__parrafo3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  color: white; }
+
+.main__nosotros__parrafo4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  text-align: center;
+  color: white; }
+
+.main__nosotros__parrafo5 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: #b3eb1a; }
 
 /*----------FIN PAGINA NOSOTROS SWIM-----------------*/
 /*-------------PAGINA ACTIVIDADES-------------------*/
@@ -103,12 +132,13 @@
     margin-bottom: 1rem; }
 
 .main__parrafoActividades {
-  border: 3px solid white;
+  border: 2px solid white;
   color: white;
   width: 70%;
   font-size: 2rem;
   line-height: 3rem;
-  height: auto; }
+  height: auto;
+  text-align: center; }
 
 .main__ubicacionParrafo {
   display: grid;
@@ -122,81 +152,16 @@
 
 /*------------------FIN PAGINA HORARIOS----------------*/
 /*----------------PAGINA PRODUCTOS----------------------*/
-/* 
-    .seccionProductos{
-        display: grid;
-        grid-template-columns:repeat(2, 2fr);
-        grid-template-rows: repeat(3, 15rem);
-        grid-template-areas: 
-        "productosRadio talles"
-        "combina ."
-        "productosCheck talles";
-    } 
-    
-    
-    .productosRadio{
-        grid-area: productosRadio;
-
-    }
-
-    .listadoTalles{
-        grid-area: talles;
-    }
-
-    .combinaProductos{
-        grid-area: combina;
-        font-size: 4rem;
-    }
-    
-    .productosCheck{
-        grid-area: productosChek;
-         */
-/* Pagina productos*/
-/* .seccionProductos{
-        height: 60rem;
-        color: white;
-        font-size: 3rem;
-        text-align: center;
-    }  */
-/* .productosRadio{
-        height: 5rem;
-        margin-top: 5rem;
-    }
-    
-    .combinaProductos{
-        font-size: 4rem;
-        
-    } 
-    .productosCheck{
-        height: 5rem;
-        margin-top: 5rem;
-    } */
-/*PAGINA PRODUCTOS*/
-/* .seccionProductos form{
-    font-size: 3rem;
-    text-align: center;
-}
-
-.listadoTalles{
-    text-align: center;
-}
- */
-/*PAGINA PRODUCTOS*/
-/* .form{
-    font-size: 3rem;
-    text-align: center;
-}
-
-.listadoTalles{
-    text-align: center;
-}  */
 .main__productos {
-  height: auto; }
+  height: 700PX; }
+  .main__productos .card {
+    margin-top: 80px;
+    margin-bottom: 40px; }
 
 /*------------------FIN PAGINA PRODUCTOS-------------*/
 /*---------------PAGINA FORMAS DE PAGO---------------------*/
 .main__formasDePago {
-  height: 500px;
+  height: 700px;
   text-align: center; }
 
 .main__formasDePago__fieldset {
@@ -272,6 +237,15 @@ body {
   top: 150px; }
   .aside__redesSwim article:hover {
     transform: translateX(12px); }
+
+.card-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold; }
 
 /*--------FIN ESPACIO COMUN A TODAS LAS PAGINAS-----*/
 /*-------------HEADER------------------------------*/
@@ -366,8 +340,6 @@ footer {
     display: none; }
   .main__Contacto__mapaSwim {
     width: 300px; }
-  .main__homeSwim__asidePublicidad {
-    display: none; }
   .main__Contacto {
     height: 160rem; }
   .main__parrafoActividades {
@@ -388,13 +360,15 @@ footer {
   .main__Contacto__mapaSwim {
     width: auto; }
   .main__homeSwim__imagenCarrousel {
-    width: 500px;
+    width: 430px;
     height: 320px; }
   .header__imagenLogo {
     width: 10rem;
     height: 6rem; }
   .main__menuConActividades li {
-    padding: 0px; } }
+    padding: 0px; }
+  .main__productos {
+    height: auto; } }
 
 @media only screen and (max-width: 481px) {
   .main__formasDePago {
@@ -403,7 +377,7 @@ footer {
 @media only screen and (max-width: 320px) {
   .main__homeSwim__imagenCarrousel {
     width: 320px;
-    height: 290px; }
+    height: 260px; }
   .main__menuConActividades {
     display: grid;
     grid-template-columns: 170px;
@@ -421,7 +395,11 @@ footer {
   .main__Actividades {
     height: auto; }
   .main__formasDePago {
-    height: 600px; } }
+    height: 600px; }
+  .main__productos {
+    height: 150rem; }
+  .card {
+    margin-bottom: 20px; } }
 
 /*------------------------FIN MEDIA QUERIES-------------------*/
 /* ------------------pagina ERROR 404--------------------*/
